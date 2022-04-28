@@ -1,0 +1,62 @@
+
+@import 'variables';
+header {
+    height: 100vh;
+    clear:right;
+    color: black ;
+    padding: 10px 10px 10px 10px;
+    font: bold;
+    display: flexbox;
+    image {
+        width: 20%;
+        height: 35%;
+        padding: 10 10 0 0;
+    }
+    .imagen {
+        width: 20%;
+        height: 35%;
+        padding: 10 10 0 0;
+      }
+
+
+    background: linear-gradient(rgba(8, 8, 9, 0.4), rgba(87, 112, 166, 0.5)), url(images/header-img.jpeg) no-repeat center center /cover;
+nav {
+
+    .custom-navbar {
+        padding: 15x 10px 30px 30px;
+        background: linear-gradient(rgba(9, 9, 9, 0.6), rgba(12, 5, 78, 0.7));
+        max-width: 960px;
+                    }
+    }
+ 
+    .banner {
+        position: absolute;
+        top: 40%;
+        left: 60%;
+        max-width: 960px;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        background: linear-gradient(rgba(15, 16, 14, 0.6), rgba(87, 112, 166, 0.5)), url(images/header-img.jpeg) no-repeat center center /cover;
+
+
+          .banner-pad {
+                 animation-name: anim;
+                 animation-duration: 2s;
+                 animation-delay: .5s;
+                 max-width: 960px;
+                 animation-fill-mode: forwards;
+                }
+           .banner-heading {
+                  animation-name: anim;
+                    animation-duration: 2s;
+                           }
+            }         
+            .banner-par {
+                animation-name: anim;
+                animation-duration: 2s;
+                animation-delay: .5s;
+                animation-fill-mode: backwards;
+              } 
+            
+    }
+  
